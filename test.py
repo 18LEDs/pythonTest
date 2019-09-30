@@ -11,7 +11,7 @@ print(r.status_code)
 config = configparser.ConfigParser()
 config.read("config")
 
-print(config["test"])
+print(config["TEST"]["test"])
 
 test=sys.argv[1]
 print("Argument: " + test)
