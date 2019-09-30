@@ -1,1 +1,4 @@
-print("This integration worked!!!")
+import sys
+
+test=sys.argv[1]
+print("Argument: " + test)
